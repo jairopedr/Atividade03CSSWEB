@@ -62,23 +62,28 @@ body {
 
 .content {
   max-width: 1200px;
-  min-width: 320px;
+  min-width: 280px;
   margin: auto;
   background: black;
   padding: 5px;
+  margin-bottom: 0;
 }
 
 .content2 {
   max-width: 1200px;
-  min-width: 320px;
+  min-width: 280px;
   margin: auto;
   background: black;
   padding: 5px;
+  margin-bottom: 0;
 }
 
 .cont{
-  background: rgb(255, 254, 254);
-  padding: 5px;
+  max-width: 1200px;
+  min-width: 280px;
+  margin: auto;
+  background: rgb(255, 255, 255);
+  padding: 0;
 }
 
 .cont a:hover, :visited {  
@@ -103,6 +108,7 @@ table{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+
 .container-logo { grid-area: header; }
 .content { grid-area: main; }
 .content2 { grid-area: right; }
@@ -122,6 +128,11 @@ table{
   text-align: justify;
   padding: 10px;
   font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 1200px;
+  min-width: 280px;
+  margin: 10px;
 }
 
 ul{
