@@ -62,7 +62,7 @@ body {
 
 .content {
   max-width: 1200px;
-  min-width: 280px;
+  min-width: 360px;
   margin: auto;
   background: black;
   padding: 5px;
@@ -71,7 +71,7 @@ body {
 
 .content2 {
   max-width: 1200px;
-  min-width: 280px;
+  min-width: 360px;
   margin: auto;
   background: black;
   padding: 5px;
@@ -80,11 +80,10 @@ body {
 
 .cont{
   max-width: 1200px;
-  min-width: 280px;
+  min-width: 360px;
   margin: auto;
   background: rgb(255, 255, 255);
   padding: 0;
-
 }
 
 .cont a:hover, :visited {  
@@ -104,7 +103,13 @@ table{
   border: 3px solid black;
 }
 
-
+frame{
+  position: relative;
+  margin: 0px -20px 30px -20px;
+  padding: 10px;
+  width: 90%;
+  height: 90%;
+}
 .zap{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -131,8 +136,6 @@ table{
   font-size: 20px;
   margin-top: 0;
   margin-bottom: 100%;
-
-  min-width: 280px;
   margin: 10px;
 }
 
